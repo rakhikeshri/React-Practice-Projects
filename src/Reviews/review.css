@@ -1,0 +1,103 @@
+.container-review{
+    box-shadow:4px 4px 4px rgba(0, 0, 0, 0.15) ;
+    max-width: 670px;
+    min-height: 550px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 4px;
+    background-color:rgb(159, 177, 219);
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.review-underline{
+    border-top: 3px solid rgb(79, 135, 238);
+    max-width: 70px;
+    margin: 10px auto;
+    margin-bottom: 20px;
+}
+.content-review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    background-color: white;
+    height: 400px;
+    width: 580px;
+    padding: 20px;
+    padding-top: 30px;
+}
+.image-review{
+    position: relative;
+    left: -80px;
+    top: -80px;
+    margin: 80px;
+}
+.quote{
+    font-size: 15px;
+    color: white;   
+    z-index: 3;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: rgb(39, 175, 216) ;
+    
+}
+.profile-img{
+    position: absolute;
+    left:0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+    border: 2px solid white;
+}
+.profile-bcg{
+    position: absolute;
+    background-color: rgb(39, 175, 216);
+    border-radius: 50%;
+    width: 163px;
+    height: 150px;
+    left:0;
+    right: 0;
+    bottom: 0px;
+    top: 0;
+    z-index: 1;
+}
+.content-review .job{
+    color: rgb(39, 175, 216);
+    margin: 3px;
+    text-transform: uppercase;
+}
+.content-review .desc{
+    margin: 6px;
+    max-width: 400px;
+}
+.left, .right{
+    color: rgb(39, 175, 216) ;
+    font-size: 20px;
+    border: 1px solid blue;
+    margin: 7px;
+    cursor: pointer;
+    padding: 4px;
+}
+.random-review{
+    padding: 4px;
+    font-size: 15px;
+    color:rgb(39, 175, 216) ;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+}
+.left:hover, .right:hover, .random-review:hover{
+    background-color: rgb(39, 175, 216);
+    color: white;
+}

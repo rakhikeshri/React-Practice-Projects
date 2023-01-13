@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.container2{
+    box-shadow:4px 4px 4px rgba(0, 0, 0, 0.15) ;
+    max-width: 750px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 4px;
+    background-color:rgb(245, 248, 255);
+    text-align: center;
+}
+.underline{
+    border-top: 3px solid rgb(79, 135, 238);
+    max-width: 100px;
+    margin: 10px auto;
+}
+.container2 h2{
+    text-align: center;
+}
+.tourImage{
+    width: 700px;
+    height: 400px;
+    margin-top: 20px;
+}
+.tour-btn{
+    padding: 4px 14px;
+    margin: 15px;
+    border: 1px solid white;
+    font-size: 16px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    color: rgb(138, 41, 41);
+    border:2px solid rgb(138, 41, 41);
+}
+.tour-btn:hover{
+    background-color: rgb(138, 41, 41);
+    color: white;
+}
+.tourFooter{
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+}
+.tourInfo{
+    display: flex;
+    justify-content: space-between;
+    margin: 7px;
+}
+.tourPrice{
+    color:rgb(79, 135, 238)
+}
+.read-show{
+    background-color: none;
+    color:rgb(79, 135, 238);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
